@@ -4,12 +4,31 @@ date: 2020-11-16T19:10:02-05:00
 draft: false 
 ---
 
+{{% content-section %}}
+
+# Section1
+
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique orci eget eros feugiat placerat. Duis at placerat elit, quis rutrum lectus. Fusce blandit elit sit amet orci cursus placerat. Aliquam et pharetra nisl, sed rhoncus risus. Quisque placerat consectetur velit at sagittis. Morbi sed pulvinar nulla, in pretium ex. In sollicitudin velit vel lobortis gravida. Pellentesque lectus felis, malesuada ut finibus et, rhoncus eu libero. Phasellus mollis, risus et dignissim venenatis, massa lacus congue neque, vel mollis diam elit quis risus. Vivamus mattis leo ac tristique porta. Pellentesque vulputate urna nec nulla mattis rhoncus. Sed condimentum, turpis nec tincidunt volutpat, ipsum nibh feugiat tortor, vel consequat metus lorem quis quam. Donec dolor quam, varius at varius ullamcorper, ultricies quis nisl. Nam ultrices condimentum metus ultricies consequat. Vivamus lobortis metus et ante luctus placerat. Integer mollis eget mi quis congue.
 
 Sed porttitor nec lorem non mattis. Duis interdum diam nec dictum venenatis. Donec pulvinar fermentum egestas. Suspendisse metus odio, feugiat ac leo sed, mattis laoreet diam. Pellentesque quis velit hendrerit, vehicula turpis id, molestie justo. Praesent cursus leo ut urna convallis, quis aliquet elit cursus. Etiam mattis lorem nec tempor varius. Morbi ullamcorper molestie accumsan. Suspendisse eget congue magna. Morbi lobortis augue tellus, eget mattis diam rutrum vitae. Sed dolor purus, rhoncus at metus a, feugiat rhoncus dolor. Aenean feugiat, eros eu volutpat varius, massa dolor iaculis quam, in fringilla ipsum justo bibendum leo. In eleifend venenatis ullamcorper. Nulla facilisi. Morbi condimentum eros non posuere luctus. Etiam aliquet quis ex vitae euismod.
 
+**bold testing** 
+{{% /content-section %}}
+
+{{% content-section %}}
+
+# Section 2
+
 In hac habitasse platea dictumst. Nam et erat dictum, mattis quam sollicitudin, suscipit urna. Sed dictum ex sit amet elit pulvinar, vitae maximus tellus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In diam ligula, maximus et porttitor ut, congue sit amet leo. Donec sit amet felis eu sem sodales feugiat. Phasellus tortor ante, bibendum ut ipsum vel, elementum efficitur leo. Sed eu mauris aliquet, pellentesque felis ut, fermentum nisi. Duis vel metus hendrerit, luctus lorem sit amet, congue leo. Aenean lacinia egestas risus, ac vestibulum elit. Donec faucibus facilisis nisl a lobortis. Proin tellus velit, aliquam ac ipsum sit amet, rhoncus mollis velit. Proin sem velit, consectetur condimentum pulvinar et, aliquam nec tellus. Praesent nisl est, commodo sit amet placerat ac, ultrices sit amet lacus.
 
+## Section 2.1
+
 Aliquam lacinia rhoncus ultrices. Sed ornare justo eu ultricies pharetra. Pellentesque maximus congue turpis, at hendrerit lorem dignissim euismod. Vivamus posuere aliquam suscipit. Pellentesque bibendum leo non sem viverra sodales. Nulla finibus quam pretium tellus lacinia vulputate. Nulla eu libero lectus. Praesent luctus semper varius. Donec pulvinar venenatis nisi, vel hendrerit arcu maximus dignissim. Nulla ex tortor, congue eget lacinia vitae, semper ac nibh. Nullam eget elementum massa, quis finibus mi. Integer pellentesque posuere nisl at tincidunt.
+{{% /content-section %}}
+
+{{% content-section %}}
+
+## Footnotes
 
 Morbi ac dignissim diam. Duis at urna eu elit rutrum tincidunt. Pellentesque euismod eu mi at dictum. Morbi tempus sed nisl sit amet cursus. Etiam vel sollicitudin nisi. Mauris volutpat et metus vehicula blandit. Vestibulum sit amet dui non ipsum viverra dapibus eget quis risus. Aliquam finibus mattis mi. Donec ac lacinia nisi, vitae porta turpis. 
+{{% /content-section %}}

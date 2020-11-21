@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
+{{- partial "head.html" . -}}
 
-    <body class="day">
-        <div id="bg"></div>
-        <div id="bg2"></div>
-        <div id="fg">
+<body class="day">
+    <div id="bg"></div>
+    <div id="bg2"></div>
+    <div id="fg">
 
-            <!-- {{- partial "header.html" . -}} -->
-            <!-- {{- partial "footer.html" . -}} -->
+        <!-- {{- partial "header.html" . -}} -->
+        <!-- {{- partial "footer.html" . -}} -->
 
-        <div id="shell">
-            <div id="bg-controls">
-                <button onclick="toggleNight()">Toggle Night Mode</button>
-            </div>
-
-            <div id="content">
-            {{- block "main" . }}{{- end }}
-            </div>
-
-        </div>
+        <div id="bg-controls">
+            <button onclick="toggleNight()">Toggle Night Mode</button>
         </div>
 
-        <script src="/js/script.js"></script>
-    </body>
+        <!-- <div id="content"> -->
+        {{- block "main" . }}{{- end }}
+        <!-- </div> -->
+
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
 </html>
