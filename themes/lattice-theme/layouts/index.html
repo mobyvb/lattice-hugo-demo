@@ -1,4 +1,9 @@
 {{ define "main" }}
-<h2>Index stuff</h2>
-<p>blah blah</p>
+<h1>Home Page</h1>
+<h2>Posts</h2>
+{{ range .Pages }}
+<article>
+    <h2>{{ .Title }}</h2>
+</article>
+{{ end }}
 {{ end }}

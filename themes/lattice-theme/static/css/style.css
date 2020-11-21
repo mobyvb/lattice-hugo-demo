@@ -52,6 +52,7 @@ body.night {
     position: absolute;
     width: 100%;
     top: 0;
+    min-height: 100%;
     /* todo foreground min height 100% */
     /* make foreground match height of content somehow */
 }
