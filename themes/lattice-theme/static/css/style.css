@@ -1,3 +1,6 @@
+/* sun and moon icons from https://feathericons.com */
+/* todo credits */
+
 body {
     font-family: sans-serif;
     padding: 0;
@@ -66,8 +69,46 @@ body.night {
     /* todo use clamp for width */
 }
 
-/*
- * Backgrounds from https://www.flickr.com/photos/84568447@N00/albums/72157616038185579
- * ^todo figure out how to do credits
- */
-
+#header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+#header h1 {
+    margin: 0;
+    display: inline-block;
+}
+.night #header {
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+#bg-controls button {
+    background-image: url("/images/sun.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 30px 30px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    cursor: pointer;
+}
+#bg-controls button:hover {
+    background-image: url("/images/sun-fill.svg");
+}
+.night #bg-controls button {
+    background-image: url("/images/moon-white.svg");
+}
+.night #bg-controls button:hover {
+    background-image: url("/images/moon-white-fill.svg");
+}
+#bg-controls {
+    width: 50px;
+    float: right;
+}    

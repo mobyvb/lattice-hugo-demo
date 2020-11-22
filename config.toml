@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Lattice"
 theme = "lattice-theme"
 
 [markup.goldmark.renderer]

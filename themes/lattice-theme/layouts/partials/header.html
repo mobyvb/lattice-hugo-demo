@@ -1,4 +1,4 @@
-<div id="nav-border" class="container">
+<!-- <div id="nav-border" class="container">
     <nav id="nav" class="nav justify-content-center">
         {{ range .Site.Menus.main }}
         <a class="nav-link" href="{{ .URL }}">
@@ -11,4 +11,12 @@
         </a>
         {{ end }}
     </nav>
+</div> -->
+
+<div id="header">
+
+    <h1>{{ .Title }}</h1>
+    <div id="bg-controls">
+        <button onclick="toggleNight()"></button>
+    </div>
 </div>
