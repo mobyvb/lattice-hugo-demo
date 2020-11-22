@@ -1,5 +1,5 @@
 window.addEventListener('load', (event) => {
-    if (localStorage["night"] === true) {
+    if (localStorage["theme"] === "night") {
         setNight()
     }
 })
@@ -17,11 +17,11 @@ function toggleNight() {
 function setNight() {
     body.classList.remove("day")
     body.classList.add("night")
-    localStorage["night"] = true
+    localStorage["theme"] = "night"
 }
 
 function setDay() {
     body.classList.remove("night")
     body.classList.add("day")
-    localStorage["night"] = false
+    localStorage["theme"] = "day"
 }
