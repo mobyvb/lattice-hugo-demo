@@ -3,5 +3,7 @@ languageCode = "en-us"
 title = "Lattice"
 theme = "lattice-theme"
 
+sectionPagesMenu = "main"
+
 [markup.goldmark.renderer]
   unsafe = true

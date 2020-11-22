@@ -1,9 +1,5 @@
 {{ define "main" }}
-<h1>Home Page</h1>
-<h2>Posts</h2>
-{{ range .Pages }}
-<article>
-    <h2>{{ .Title }}</h2>
-</article>
-{{ end }}
+<div class="content-section">
+    {{.Content}}
+</div>
 {{ end }}

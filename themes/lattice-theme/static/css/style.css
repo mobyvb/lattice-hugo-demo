@@ -83,6 +83,18 @@ body.night {
     margin: 0;
     display: inline-block;
 }
+#header a {
+    color: black;
+}
+.night #header a {
+    color: white;
+}
+#nav {
+    display: inline-block;
+
+    width: 100px;
+    float: right;
+}
 .night #header {
     background-color: black;
     color: white;
