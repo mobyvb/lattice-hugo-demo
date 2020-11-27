@@ -6,10 +6,19 @@ body {
     padding: 0;
     margin: 0;
     background-color: lightblue;
+    color: #424242;
+}
+
+a, a:visited {
+    color: #424242;
+}
+
+.night a, .night a:visited {
+    color: white;
 }
 
 body.night {
-    background-color: black;
+    background-color: #424242;
 }
 
 .night #bg {
@@ -22,7 +31,7 @@ body.night {
     background-image: url(/images/tiledbgblack.png);
 }
 .night #shell {
-    background-color: black;
+    background-color: #424242;
     color: white;
 }
 .day #bg {
@@ -36,7 +45,7 @@ body.night {
 }
 .day #shell, .day .content-section {
     background-color: white;
-    color: black;
+    color: #424242;
 
 }
 
@@ -61,7 +70,7 @@ body.night {
 }
 
 #shell, .content-section {
-    background-color: black;
+    background-color: #424242;
     color: white;
     width: 500px;
     margin: 50px auto;
@@ -76,7 +85,7 @@ body.night {
     height: 50px;
     background-color: white;
     box-sizing: border-box;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #424242;
     padding: 10px 20px;
 }
 #header h1 {
@@ -84,7 +93,7 @@ body.night {
     display: inline-block;
 }
 #header a {
-    color: black;
+    color: #424242;
 }
 .night #header a {
     color: white;
@@ -92,11 +101,15 @@ body.night {
 #nav {
     display: inline-block;
 
-    width: 100px;
+    width: 300px;
     float: right;
 }
+#nav a {
+    display: inline-block;
+    margin: 5px 20px;
+}
 .night #header {
-    background-color: black;
+    background-color: #424242;
     color: white;
     border-bottom: 1px solid white;
 }
@@ -123,4 +136,27 @@ body.night {
 #bg-controls {
     width: 50px;
     float: right;
-}    
+}
+
+.glossary-term, .footnote-ref {
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    border: 1px dashed black;
+}
+.tooltip {
+    display: none;
+    font-weight: normal;
+    border: 1px solid black;
+    width: 200px;
+    background-color: blue;
+    padding: 4px;
+}
+:hover > .tooltip{
+    display: block;
+    position: absolute;
+    top: 20px;
+}
+.footnote:target, .glossary-definition:target {
+    background-color: red;
+}
