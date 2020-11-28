@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Lattice</title>
+    <link>http://example.org/projects/</link>
+    <description>Recent content in Projects on Lattice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Nov 2020 12:04:58 -0500</lastBuildDate><atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 2</title>
+      <link>http://example.org/projects/project2/</link>
+      <pubDate>Sun, 22 Nov 2020 12:06:31 -0500</pubDate>
+      
+      <guid>http://example.org/projects/project2/</guid>
+      <description>Project 2 Section 1 This is my second project.
+ Section 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique orci eget eros feugiat placerat. Duis at placerat elit, quis rutrum lectus. Fusce blandit elit sit amet orci cursus placerat. Aliquam et pharetra nisl, sed rhoncus risus. Quisque placerat consectetur velit at sagittis. Morbi sed pulvinar nulla, in pretium ex. In sollicitudin velit vel lobortis gravida. Pellentesque lectus felis, malesuada ut finibus et, rhoncus eu libero.</description>
+    </item>
+    
+    <item>
+      <title>Project 1</title>
+      <link>http://example.org/projects/project1/</link>
+      <pubDate>Sun, 22 Nov 2020 12:04:58 -0500</pubDate>
+      
+      <guid>http://example.org/projects/project1/</guid>
+      <description>Project 1 This is my first project.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique orci eget eros feugiat placerat. Duis at placerat elit, quis rutrum lectus. Fusce blandit elit sit amet orci cursus placerat. Aliquam et pharetra nisl, sed rhoncus risus. Quisque placerat consectetur velit at sagittis. Morbi sed pulvinar nulla, in pretium ex. In sollicitudin velit vel lobortis gravida. Pellentesque lectus felis, malesuada ut finibus et, rhoncus eu libero.</description>
+    </item>
+    
+  </channel>
+</rss>
