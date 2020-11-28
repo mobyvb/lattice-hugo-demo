@@ -1,24 +1,31 @@
 /* sun and moon icons from https://feathericons.com */
 /* todo credits */
 
+$font-stack: Helvetica, sans-serif;
+$dark-theme-text-color: #eeeeee;
+$dark-theme-bg-color: #424242;
+$light-theme-text-color: #424242;
+$light-theme-bg-color: #eeeeee;
+$highlight-color: #ffab0f;
+
 body {
-    font-family: sans-serif;
+    font-family: $font-stack;
     padding: 0;
     margin: 0;
     background-color: lightblue;
-    color: #424242;
+    color: $light-theme-text-color;
 }
 
 a, a:visited {
-    color: #424242;
+    color: $light-theme-text-color;
 }
 
 .night a, .night a:visited {
-    color: white;
+    color: $dark-theme-text-color;
 }
 
 body.night {
-    background-color: #424242;
+    background-color: $dark-theme-bg-color;
 }
 
 .night #bg {
@@ -30,10 +37,6 @@ body.night {
 .night #fg {
     background-image: url(/images/tiledbgblack.png);
 }
-.night #shell {
-    background-color: #424242;
-    color: white;
-}
 .day #bg {
     background-image: linear-gradient(#9795EF, #F9C5D1);
 }
@@ -43,10 +46,13 @@ body.night {
 .day #fg {
     background-image: url(/images/tiledbg.png);
 }
-.day #shell, .day .content-section {
-    background-color: white;
-    color: #424242;
-
+.day .content-section {
+    background-color: $light-theme-bg-color;
+    color: $light-theme-text-color;
+}
+.night .content-section {
+    background-color: $dark-theme-bg-color;
+    color: $dark-theme-text-color;
 }
 
 #bg, #bg2 {
@@ -69,9 +75,7 @@ body.night {
     /* make foreground match height of content somehow */
 }
 
-#shell, .content-section {
-    background-color: #424242;
-    color: white;
+.content-section {
     width: 500px;
     margin: 50px auto;
     padding: 10px 30px;
@@ -83,9 +87,9 @@ body.night {
     top: 0;
     width: 100%;
     height: 50px;
-    background-color: white;
+    background-color: $light-theme-bg-color;
     box-sizing: border-box;
-    border-bottom: 1px solid #424242;
+    border-bottom: 1px solid $light-theme-text-color;
     padding: 10px 20px;
 }
 #header h1 {
@@ -93,10 +97,10 @@ body.night {
     display: inline-block;
 }
 #header a {
-    color: #424242;
+    color: $light-theme-text-color;
 }
 .night #header a {
-    color: white;
+    color: $dark-theme-text-color;
 }
 #nav {
     display: inline-block;
@@ -109,9 +113,9 @@ body.night {
     margin: 5px 20px;
 }
 .night #header {
-    background-color: #424242;
-    color: white;
-    border-bottom: 1px solid white;
+    background-color: $dark-theme-bg-color;
+    color: $dark-theme-text-color;
+    border-bottom: 1px solid $dark-theme-text-color;
 }
 #bg-controls button {
     background-image: url("/images/sun.svg");
@@ -142,14 +146,15 @@ body.night {
     font-weight: bold;
     position: relative;
     cursor: pointer;
-    border: 1px dashed black;
+    border: 1px dashed $light-theme-text-color;
 }
 .tooltip {
     display: none;
     font-weight: normal;
-    border: 1px solid black;
+    border: 1px solid $light-theme-text-color;
+    color: $light-theme-text-color;
     width: 200px;
-    background-color: blue;
+    background-color: $light-theme-bg-color;
     padding: 4px;
 }
 :hover > .tooltip{
@@ -158,5 +163,5 @@ body.night {
     top: 20px;
 }
 .footnote:target, .glossary-definition:target {
-    background-color: red;
+    background-color: $highlight-color;
 }
