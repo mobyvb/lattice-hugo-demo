@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Lattice</title>
-    <link>http://mobyvb.com/lattice-theme/blog/</link>
+    <link>http://mobyvb.com/lattice-hugo-demo/blog/</link>
     <description>Recent content in Blog on Lattice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2020 12:04:58 -0500</lastBuildDate><atom:link href="http://mobyvb.com/lattice-theme/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 12:04:58 -0500</lastBuildDate><atom:link href="http://mobyvb.com/lattice-hugo-demo/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post 2</title>
-      <link>http://mobyvb.com/lattice-theme/blog/post2/</link>
+      <link>http://mobyvb.com/lattice-hugo-demo/blog/post2/</link>
       <pubDate>Sun, 22 Nov 2020 12:06:31 -0500</pubDate>
       
-      <guid>http://mobyvb.com/lattice-theme/blog/post2/</guid>
+      <guid>http://mobyvb.com/lattice-hugo-demo/blog/post2/</guid>
       <description>Post 2 Section 1 This is my second post.
  Section 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique orci eget eros feugiat placerat. Duis at placerat elit, quis rutrum lectus. Fusce blandit elit sit amet orci cursus placerat. Aliquam et pharetra nisl, sed rhoncus risus. Quisque placerat consectetur velit at sagittis. Morbi sed pulvinar nulla, in pretium ex. In sollicitudin velit vel lobortis gravida. Pellentesque lectus felis, malesuada ut finibus et, rhoncus eu libero.</description>
     </item>
     
     <item>
       <title>Post 1</title>
-      <link>http://mobyvb.com/lattice-theme/blog/post1/</link>
+      <link>http://mobyvb.com/lattice-hugo-demo/blog/post1/</link>
       <pubDate>Sun, 22 Nov 2020 12:04:58 -0500</pubDate>
       
-      <guid>http://mobyvb.com/lattice-theme/blog/post1/</guid>
+      <guid>http://mobyvb.com/lattice-hugo-demo/blog/post1/</guid>
       <description>Post 1 This is my first post.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique orci eget eros feugiat placerat. Duis at placerat elit, quis rutrum lectus. Fusce blandit elit sit amet orci cursus placerat. Aliquam et pharetra nisl, sed rhoncus risus. Quisque placerat consectetur velit at sagittis. Morbi sed pulvinar nulla, in pretium ex. In sollicitudin velit vel lobortis gravida. Pellentesque lectus felis, malesuada ut finibus et, rhoncus eu libero.</description>
     </item>
