@@ -1,4 +1,4 @@
-# baseURL = "http://mobyvb.com/lattice-hugo-demo"
+#baseURL = "http://mobyvb.com/lattice-hugo-demo"
 baseURL = ""
 languageCode = "en-us"
 title = "Lattice"
