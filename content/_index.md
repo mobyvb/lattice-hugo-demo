@@ -6,5 +6,5 @@ draft: false
 
 # Home Page
 
-This is the home page of the website. Check out my [blog](/blog) and [projects](/projects).
+This is the home page of the website. Check out my [blog]({{< baseurl >}}blog) and [projects]({{< baseurl >}}projects).
 
